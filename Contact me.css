@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header img{
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    position: fixed;
+    top: 40px;
+    left: 20%;
+    z-index: -1;
+    box-shadow: 0 14px 28px black;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./1338701.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+
+header{
+    position: fixed;
+    top: 75px;
+    left: 25%;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover{
+    color: purple;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.form{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 14px 28px black;
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.form p{
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 3px;
+    border-radius: 6px;
+    background: skyblue;
+    color: black;
+}
+
+.form .input-box{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 10px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: white;
+}
+
+.form .check-box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.check-box label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+
+.form .btn{
+    width: 100%;
+    height: 45px;
+    background: skyblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+.btn {
+    background: skyblue;
+}
+
+.btn:hover{
+    background: transparent;
+    color: skyblue;
+    transition: .3s;
+    border: 2px solid rgba(255, 255, 255, .2);
+}
+
+.footer{
+    position: fixed;
+    background-color: black;
+    border-top: 2px solid red;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+
+.foot a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: purple;
+    text-decoration: underline;
+}
